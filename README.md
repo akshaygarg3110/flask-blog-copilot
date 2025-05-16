@@ -8,24 +8,27 @@ Follow these steps to create and run a simple Flask web application using GitHub
 2. **Create a Virtual Environment**
    python -m venv .venv
 
-3.**Activate the Virtual Environment**
-  **On Windows:**
+3. **Activate the Virtual Environment**
+
+   **On Windows:**
   .venv\Scripts\activate.bat
   
-  **On macOS/Linux:**
+   **On macOS/Linux:**
   source .venv/bin/activate
 
 4. **Install Required Packages**  
    pip install -r dev-requirements.txt
 
 5. **Set the Flask App Environment Variable**
+   
    **On Windows:**
    set FLASK_APP=app.py
   
-  **On macOS/Linux:**
+   **On macOS/Linux:**
   export FLASK_APP=app.py
 
 6. (Optional) Set the Flask Environment to Development
+   
    **On Windows:**
    set FLASK_ENV=development
   
@@ -36,5 +39,5 @@ Follow these steps to create and run a simple Flask web application using GitHub
    If using app.py, run:
    flask --app app run
 
-   Or simply:
+   **Or simply:**
    flask run
